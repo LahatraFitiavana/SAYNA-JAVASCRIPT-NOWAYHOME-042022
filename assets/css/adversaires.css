@@ -98,10 +98,12 @@ ul{
 #hero .description{
     font-weight: bold;
     font-size: 1.4em;
+    display: none;
 }
 
 #hero .box{
     position: relative;
+    left:-50%;
     top: 25%;
 }
 
@@ -225,9 +227,9 @@ footer .media{
     padding: 15px;
     margin-bottom: 10px;
 }
-footer .media img{
+footer .media img,footer .media .footer-icon{
     background-color: var(--primary-ad-color);
-    color: var(--white-ad-color);
+    color: var(--black-ad-color);
     padding: 5px;
     border-radius: 50%;
 }
