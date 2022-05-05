@@ -36,3 +36,18 @@
         padding-left: 40px;
     }
 }
+
+/***minuter */
+
+.countdown{
+    width: 20%;
+    background: var(--primary-ad-color);
+    padding: 20px;
+    border:1px solid red;
+    border-radius: 20px;
+    float:right;
+    text-align: center;
+    font-weight: bold;
+    opacity: 0.8;
+    margin: 50px;
+}

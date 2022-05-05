@@ -77,11 +77,20 @@
 
 #avengers{
     background-color: var(--red-color);
+    /*
     background-image: url(../img/img32.png);
     background-size: 675px;
     height: 1000px;
     background-repeat: no-repeat;
     background-position: center right;
+    */
+    position: relative;
+}
+
+#avengers .slide{
+position:absolute;
+top:0%;
+left:50%;
 }
 
 #avengers h1{

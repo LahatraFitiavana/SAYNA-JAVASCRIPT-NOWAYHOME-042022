@@ -45,7 +45,7 @@ menu.forEach((li)=>{
 
 $(document).ready(function(){
     $('.box').animate({
-        left:'30px',
+        left:'25px',
     },"10000");
     
     $('.description').fadeIn(5000);
